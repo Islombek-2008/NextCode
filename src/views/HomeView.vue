@@ -14,6 +14,7 @@
 						border-radius: 5px;
 						margin-top: 45px;
 					"
+					class="img"
 				/>
 			</a>
 			<div style="display: flex; align-items: center">
@@ -32,6 +33,7 @@
 						border-radius: 5px;
 						margin-top: 45px;
 					"
+					class="img"
 				/>
 			</a>
 			<div style="display: flex; align-items: center">
@@ -53,6 +55,7 @@
 						border-radius: 5px;
 						margin-top: 45px;
 					"
+					class="img"
 				/>
 			</a>
 			<div style="display: flex; align-items: center">
@@ -74,6 +77,7 @@
 						border-radius: 5px;
 						margin-top: 45px;
 					"
+					class="img"
 				/>
 			</a>
 			<div style="display: flex; align-items: center">
@@ -103,10 +107,10 @@ main {
 .vidios a {
 	font-size: 18px;
 }
-@media (max-width: 677px) {
-	video {
-		width: 370px;
-		height: 270px;
+@media (max-width: 824px) {
+	.img {
+		width: 370px !important;
+		height: 270px !important;
 	}
 	.vidios a {
 		font-size: 16px;
