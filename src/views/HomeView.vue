@@ -116,4 +116,10 @@ main {
 		font-size: 16px;
 	}
 }
+@media (max-width:400px){
+	.img{
+		width: 300px !important;
+		height: 200px !important;
+	}
+}
 </style>
