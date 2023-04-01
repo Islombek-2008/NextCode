@@ -9,8 +9,15 @@
 		<div class="info">
 			<div>
 				<h1>NextCode O'quv Kurslari sizga dasturlashni mukammal o'rgatadi.</h1>
-				<p>Siz ham biz bilan <a href="https://t.me/nextCode24">o'qing</a></p>
-				<a href="https://nextcode-school.netlify.app/">NextCode School</a>
+				<p>
+					Siz ham biz bilan
+					<a href="https://t.me/nextCode24"
+						>o'qing <i class="fab fa-readme"></i
+					></a>
+				</p>
+				<a href="https://nextcode-school.netlify.app/"
+					>NextCode School <i class="fas fa-right-long"></i
+				></a>
 			</div>
 			<img src="../assets/img/home-img-left.png" alt="home-img-left" />
 		</div>
@@ -20,6 +27,18 @@
 export default {};
 </script>
 <style scoped>
+a {
+	color: darkgray;
+}
+.container {
+	background-image: url(../components/img/@Wallpaper_INT.jpg);
+	color: rgb(255, 255, 255);
+	background-size: cover;
+	height: 100vh;
+	padding: 50px 20px 0;
+	display: flex;
+	flex-direction: column;
+}
 .about {
 	display: flex;
 	justify-content: end;

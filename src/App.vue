@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from "vue-router";
 		</a>
 		<ul>
 			<RouterLink to="/">Home</RouterLink>
-			<RouterLink to="/about">SignUp</RouterLink>
+			<RouterLink to="/signup/about">SignUp</RouterLink>
 		</ul>
 	</nav>
 	<RouterView class="routerView" />
@@ -21,6 +21,9 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	box-shadow: 0 0 30px #2222;
+	position: absolute;
+	background-color: #fff;
+	top: 0;
 }
 nav img {
 	width: 60px;

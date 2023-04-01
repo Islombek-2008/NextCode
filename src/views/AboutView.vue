@@ -159,6 +159,7 @@ export default {
 	justify-content: space-between;
 	padding: 20px;
 	position: relative;
+	margin-top: 100px;
 }
 .left-long {
 	border: none;

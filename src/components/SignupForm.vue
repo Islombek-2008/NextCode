@@ -1,29 +1,31 @@
 <template>
-	<form @submit.prevent="signUp" class="form">
-		<h2 class="title-form">Sign Up</h2>
-		<input
-			type="text"
-			placeholder="Username"
-			required
-			v-model="username"
-			id="username"
-		/>
-		<input
-			type="email"
-			placeholder="Email"
-			required
-			v-model="email"
-			id="email"
-		/>
-		<input
-			type="password"
-			placeholder="Password"
-			required
-			v-model="password"
-			id="password"
-		/>
-		<button class="login-button">Sign Up</button>
-	</form>
+	<div class="container">
+		<form @submit.prevent="signUp" class="form">
+			<h2 class="title-form">Sign Up</h2>
+			<input
+				type="text"
+				placeholder="Username"
+				required
+				v-model="username"
+				id="username"
+			/>
+			<input
+				type="email"
+				placeholder="Email"
+				required
+				v-model="email"
+				id="email"
+			/>
+			<input
+				type="password"
+				placeholder="Password"
+				required
+				v-model="password"
+				id="password"
+			/>
+			<button class="login-button">Sign Up</button>
+		</form>
+	</div>
 </template>
 
 <script>
@@ -59,16 +61,25 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.container {
+	background-image: url(./img/@wall8kuz.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #8d8d8d;
 	color: #fff;
 	border-radius: 10px;
 	border: 1px solid #717171;
+	width: 25rem;
 	padding: 2rem 5rem;
 	box-shadow: 0px 0px 20px 0px black;
 }
