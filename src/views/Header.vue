@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="about">
 			<h3>Kurslarni ko'rish uchun ro'yhatdan o'ting</h3>
-			<RouterLink to="/about">
+			<RouterLink to="/signup/about">
 				<img src="../assets/img/user.png" alt="user"
 			/></RouterLink>
 		</div>
