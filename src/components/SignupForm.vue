@@ -70,6 +70,7 @@ export default {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-top: 50px;
 }
 .form {
 	display: flex;
@@ -78,10 +79,10 @@ export default {
 	align-items: center;
 	color: #fff;
 	border-radius: 10px;
-	border: 1px solid #717171;
 	width: 25rem;
 	padding: 2rem 5rem;
 	box-shadow: 0px 0px 20px 0px black;
+	backdrop-filter: blur(1pc);
 }
 .title-form {
 	color: #fff;
@@ -99,6 +100,7 @@ export default {
 	width: 15rem;
 	font-size: 1.2rem;
 	outline: none;
+	color: #fff;
 	text-align: center;
 	background: transparent;
 	transition: all 0.2s ease-in-out;
@@ -110,7 +112,8 @@ export default {
 }
 
 .login-button {
-	padding: 1rem 3rem;
+	width: 6pc;
+	height: 3pc;
 	border: 2px solid green;
 	background: transparent;
 	border-radius: 1.5rem;
@@ -121,5 +124,16 @@ export default {
 .login-button:hover {
 	background-color: green;
 	color: white;
+}
+@media (max-width: 400px) {
+	.form {
+		margin: auto;
+		width: 300px;
+	}
+	#username:focus,
+	#email:focus,
+	#password:focus {
+		width: 17rem;
+	}
 }
 </style>

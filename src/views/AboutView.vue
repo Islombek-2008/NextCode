@@ -245,5 +245,11 @@ form {
 		width: 300px !important;
 		height: 200px !important;
 	}
+	.akk {
+		top: 90px;
+		right: 40px;
+		font-size: 16px;
+		width: 270px;
+	}
 }
 </style>
