@@ -9,6 +9,7 @@ import { RouterLink, RouterView } from "vue-router";
 		<ul>
 			<RouterLink to="/">Home</RouterLink>
 			<RouterLink to="/signup/about">SignUp</RouterLink>
+			<a href="https://nextcode-chat.netlify.app/">Chat</a>
 		</ul>
 	</nav>
 	<RouterView class="routerView" />

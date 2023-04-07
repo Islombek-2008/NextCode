@@ -114,6 +114,21 @@
 					>
 				</div>
 			</div>
+			<hr />
+			<div class="portfoli">
+				<div class="kundalik">
+					<a href="https://kundalik-in.netlify.app/">
+						<img src="../components/img/kundalik.png" alt="kundalik" />
+					</a>
+					<p>NextCode kundalik App</p>
+				</div>
+				<div class="kundalik">
+					<a href="https://kundalik-in.netlify.app/">
+						<img src="../components/img/kitob-dokoni.png" alt="kitob-dokoni" />
+					</a>
+					<p>NextCode kitob do'koni</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -154,6 +169,10 @@ export default {
 </script>
 
 <style scoped>
+.container hr {
+	width: 90%;
+	margin-top: 25px;
+}
 .info-top {
 	display: flex;
 	justify-content: space-between;
@@ -210,6 +229,7 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 50px;
 }
 .info-top button {
 	padding: 5px;
@@ -239,6 +259,19 @@ form {
 	.vidios a {
 		font-size: 16px;
 	}
+}
+.kundalik img {
+	margin-top: 25px;
+	width: 450px;
+	height: 250px;
+	border: 1px solid #a1a1a1;
+	border-radius: 10px;
+}
+.portfoli {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
 }
 @media (max-width: 400px) {
 	.img {
